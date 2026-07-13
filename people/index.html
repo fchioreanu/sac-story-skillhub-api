@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INF RO People Profiles</title>
+  <link rel="stylesheet" href="people.css">
+</head>
+<body>
+  <header>
+    <div class="header-row">
+      <div>
+        <h1>INF RO People Profiles</h1>
+        <div class="muted">Generated from anonymized CV PowerPoint text with Gemini 3 Flash Preview, then de-anonymized locally.</div>
+      </div>
+      <div class="header-actions">
+        <a class="button-link" href="../index.html">SkillHub</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="panel">
+      <h2>Filters</h2>
+      <div class="filters">
+        <label>Search
+          <input id="search_filter" type="search" placeholder="Name, role, skill, profile text">
+        </label>
+        <label>Role
+          <select id="role_filter"><option value="">All roles</option></select>
+        </label>
+        <label>Skill
+          <select id="skill_filter"><option value="">All skills</option></select>
+        </label>
+        <label>CV Language
+          <select id="language_filter"><option value="">All languages</option></select>
+        </label>
+        <button id="reset_filters" type="button">Reset</button>
+      </div>
+    </section>
+    <section class="kpis">
+      <div class="kpi"><strong id="kpi_people">0</strong><span>People</span></div>
+      <div class="kpi"><strong id="kpi_roles">0</strong><span>Roles</span></div>
+      <div class="kpi"><strong id="kpi_skills">0</strong><span>Skills</span></div>
+      <div class="kpi"><strong id="kpi_projects">0</strong><span>Projects</span></div>
+    </section>
+    <section>
+      <div class="section-head">
+        <h2>Profiles</h2>
+        <div class="muted" id="result_count"></div>
+      </div>
+      <div class="cards" id="profile_cards">
+      
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Alexandru Rotarescu</h2>
+            <p class="meta">AMS Consultant | DE CV</p>
+          </div>
+          <p>IT Specialist with 8+ years of experience in Technical Support, SAP Administration, and O365 Management.</p>
+          <p class="muted">Active Directory, Adobe Creative Suite, AutoCAD, Azure AD, Microsoft Intune, Microsoft Teams</p>
+          <div class="card-actions"><a class="button-link" href="profiles/alexandru-rotarescu.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Alexia Imbarusiu</h2>
+            <p class="meta">SAP Consultant | DE CV</p>
+          </div>
+          <p>Business Intelligence Expert specializing in SAP Analytics Cloud and BW solutions for the Automotive and Transport sectors.</p>
+          <p class="muted">Google Cloud Platform, Looker, Microsoft Power BI, Microsoft SQL Server, Python, SAP ABAP</p>
+          <div class="card-actions"><a class="button-link" href="profiles/alexia-imbarusiu.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Antonie Claudiu</h2>
+            <p class="meta">Database / ETL Developer | DE CV</p>
+          </div>
+          <p>Expert for Oracle Database and ETL Solutions</p>
+          <p class="muted">Data Warehouse, ETL, Flyway, Github, Java, Liquibase</p>
+          <div class="card-actions"><a class="button-link" href="profiles/antonie-claudiu.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Carla Rosianu</h2>
+            <p class="meta">BI Consultant | EN CV</p>
+          </div>
+          <p>Business Intelligence Consultant &amp; Incident Management Expert</p>
+          <p class="muted">Abacus360 Banking, Angular, Bash, ETL, Java, Java Spring</p>
+          <div class="card-actions"><a class="button-link" href="profiles/carla-rosianu.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Carmen Blaga</h2>
+            <p class="meta">HR Administration Assistant | DE CV</p>
+          </div>
+          <p>HR Professional with international experience in Employee Lifecycle Management and Executive Support.</p>
+          <p class="muted">Data Maintenance, Microsoft Office Suite, Microsoft Teams, Onboarding &amp; Offboarding, Process Improvement, SAP HR Systems</p>
+          <div class="card-actions"><a class="button-link" href="profiles/carmen-blaga.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Christian Rosu</h2>
+            <p class="meta">Consultant &amp; Java Developer | DE CV</p>
+          </div>
+          <p>Expert in Java Development and Application Support specializing in Banking Systems</p>
+          <p class="muted">Camunda, Documentum DFC, Git &amp; GitLab, Jakarta EE, Java 8/11/17, Jira</p>
+          <div class="card-actions"><a class="button-link" href="profiles/christian-rosu.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Daniel Jerrehian</h2>
+            <p class="meta">Senior Data Engineer / Data Architect | DE CV</p>
+          </div>
+          <p>Senior Data Engineer and Architect specializing in cloud-based data platforms and financial reporting systems.</p>
+          <p class="muted">Agile/Scrum, Apache Airflow, AWS, Data Modeling, Databricks, Delta Lake</p>
+          <div class="card-actions"><a class="button-link" href="profiles/daniel-jerrehian.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Eduard Diosadi</h2>
+            <p class="meta">SAP Consultant | DE CV</p>
+          </div>
+          <p>SAP Consultant specializing in Cloud Analytics, Data Modeling, and AI-driven Automation</p>
+          <p class="muted">AI Agentic Workflows, Dashboarding, Data Modeling, Data Visualization, LLM-based Automation, Machine Learning</p>
+          <div class="card-actions"><a class="button-link" href="profiles/eduard-diosadi.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Filip Chioreanu</h2>
+            <p class="meta">SAP Consultant | DE CV</p>
+          </div>
+          <p>SAP Analytics Consultant specializing in Cloud-based Reporting and Planning</p>
+          <p class="muted">Data Modeling, Data Visualization, Gemini API, HTML/CSS, JavaScript, Node.js</p>
+          <div class="card-actions"><a class="button-link" href="profiles/filip-chioreanu.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Gabriela Wagner</h2>
+            <p class="meta">SAP BW Consultant | DE CV</p>
+          </div>
+          <p>Business Intelligence Expert specializing in SAP BW/4HANA and Cloud Solutions</p>
+          <p class="muted">ITIL Foundation, Jira, Oracle DB, SAP Analytics Cloud, SAP BusinessObjects, SAP BW on HANA</p>
+          <div class="card-actions"><a class="button-link" href="profiles/gabriela-wagner.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Ioana Boca</h2>
+            <p class="meta">SAP BI &amp; Analytics Consultant | DE CV</p>
+          </div>
+          <p>SAP BI &amp; Analytics Consultant specializing in Datasphere, SAC, and Data Modeling</p>
+          <p class="muted">ABAP (FI-CO, IS-U), Analysis for Office, Confluence, Jira, Power BI, Salesforce</p>
+          <div class="card-actions"><a class="button-link" href="profiles/ioana-boca.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Iuliana Toma</h2>
+            <p class="meta">Senior SAP BW/BI Consultant | DE CV</p>
+          </div>
+          <p>SAP BI Expert specializing in Automotive, Banking, and Logistics sectors with 8+ years of experience.</p>
+          <p class="muted">ABAP, AMDP, BEx Query Designer, HANA Modeling, SAP Analysis for Office (AfO), SAP Analytics Cloud</p>
+          <div class="card-actions"><a class="button-link" href="profiles/iuliana-toma.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Matei Grosu</h2>
+            <p class="meta">SAP Consultant | DE CV</p>
+          </div>
+          <p>SAP Consultant with a background in Full-Stack Development and Data Analytics</p>
+          <p class="muted">Data Modeling, ETL Processes, Full-Stack Development, Microsoft Power Automate, OpenAI Codex, SAP Analytics Cloud</p>
+          <div class="card-actions"><a class="button-link" href="profiles/matei-grosu.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Raluca Ghimpu</h2>
+            <p class="meta">Consultant Business Intelligence | DE CV</p>
+          </div>
+          <p>SAP BI Expert specializing in SAC Planning, Reporting, and Data Modeling</p>
+          <p class="muted">CSS, Data Analysis, HTML, ITIL, SAP Analytics Cloud, SAP BO</p>
+          <div class="card-actions"><a class="button-link" href="profiles/raluca-ghimpu.html">Open Profile</a></div>
+        </article>
+        
+        <article class="card" data-profile-card>
+          <div>
+            <h2>Raluca Neagu</h2>
+            <p class="meta">SAP BI &amp; Advanced Analytics Consultant | DE CV</p>
+          </div>
+          <p>Expert in SAP BI/BW and Advanced Analytics specializing in SAP BW/4HANA and SAP Analytics Cloud</p>
+          <p class="muted">BEx Query Designer, Confluence, Data Modeling, Hadoop, HP ALM, Jira</p>
+          <div class="card-actions"><a class="button-link" href="profiles/raluca-neagu.html">Open Profile</a></div>
+        </article>
+        
+      </div>
+    </section>
+  </main>
+  <script>
+    const profiles = [{"name": "Alexandru Rotarescu", "role": "AMS Consultant", "language": "DE", "headline": "IT Specialist with 8+ years of experience in Technical Support, SAP Administration, and O365 Management.", "summary": "Experienced IT professional specializing in technical support and service desk operations within complex enterprise environments. Proven track record in SAP user management, O365 administration, and Active Directory. Skilled in process optimization, global IT standard implementation, and providing high-level support for international projects.", "skills": ["Active Directory", "Adobe Creative Suite", "AutoCAD", "Azure AD", "Microsoft Intune", "Microsoft Teams", "Office 365", "Power BI", "SAP", "ServiceNow", "SharePoint", "VPN", "Windchill"], "projectCount": 5, "href": "profiles/alexandru-rotarescu.html"}, {"name": "Alexia Imbarusiu", "role": "SAP Consultant", "language": "DE", "headline": "Business Intelligence Expert specializing in SAP Analytics Cloud and BW solutions for the Automotive and Transport sectors.", "summary": "Consultant with a focus on SAP Analytics Cloud and BW, specializing in cloud-based analytics, planning, and reporting solutions for Finance and Controlling departments. Experienced in the full BI development lifecycle, including ETL processes, data modeling, and reporting across both on-premises and cloud environments.", "skills": ["Google Cloud Platform", "Looker", "Microsoft Power BI", "Microsoft SQL Server", "Python", "SAP ABAP", "SAP Analytics Cloud", "SAP BW/4HANA", "SAP Datasphere", "Tableau"], "projectCount": 4, "href": "profiles/alexia-imbarusiu.html"}, {"name": "Antonie Claudiu", "role": "Database / ETL Developer", "language": "DE", "headline": "Expert for Oracle Database and ETL Solutions", "summary": "Experienced Database and ETL Developer with a strong focus on Oracle technologies, Data Warehousing, and performance tuning. Proven expertise in the banking, supply chain, and logistics sectors, specializing in the implementation of complex data models, automated deployments, and efficient processing of large data volumes.", "skills": ["Data Warehouse", "ETL", "Flyway", "Github", "Java", "Liquibase", "ODI", "Oracle DB", "Oracle Forms & Reports", "PL/SQL", "Shellscripting", "SQL Developer", "Toad"], "projectCount": 5, "href": "profiles/antonie-claudiu.html"}, {"name": "Carla Rosianu", "role": "BI Consultant", "language": "EN", "headline": "Business Intelligence Consultant & Incident Management Expert", "summary": "Experienced BI Consultant specializing in incident management, application support, and end-to-end reporting solutions. Proven expertise in data management, system optimization, and technical solution design within the financial and automotive sectors. Skilled in monitoring ETL processes, improving modern BI applications, and executing data analysis to drive process improvements.", "skills": ["Abacus360 Banking", "Angular", "Bash", "ETL", "Java", "Java Spring", "Linux/Unix", "Microsoft Azure", "Microsoft SQL Server", "Oracle Data Integrator (ODI)", "Oracle DB", "PL/SQL", "Python", "SQL"], "projectCount": 4, "href": "profiles/carla-rosianu.html"}, {"name": "Carmen Blaga", "role": "HR Administration Assistant", "language": "DE", "headline": "HR Professional with international experience in Employee Lifecycle Management and Executive Support.", "summary": "Dedicated HR professional with a background in executive assistance and HR analysis within international environments. Experienced in managing the full employee lifecycle, including onboarding, data maintenance, and offboarding. Proven ability to optimize administrative processes and facilitate seamless communication between stakeholders across the DACH region.", "skills": ["Data Maintenance", "Microsoft Office Suite", "Microsoft Teams", "Onboarding & Offboarding", "Process Improvement", "SAP HR Systems", "SNOW (ServiceNow)", "Time Management"], "projectCount": 3, "href": "profiles/carmen-blaga.html"}, {"name": "Christian Rosu", "role": "Consultant & Java Developer", "language": "DE", "headline": "Expert in Java Development and Application Support specializing in Banking Systems", "summary": "Dedicated IT professional with a strong background in Java development and application maintenance. Currently focused on the technical analysis, monitoring, and optimization of Jakarta EE-based reporting systems within the banking sector. Experienced in utilizing OpenShift and Kibana for system stability and Oracle SQL for complex data analysis. Transitioning into a full-stack Java development role with expertise in Spring Boot and modern web integrations.", "skills": ["Camunda", "Documentum DFC", "Git & GitLab", "Jakarta EE", "Java 8/11/17", "Jira", "Kibana", "Linux", "Liquibase", "OpenShift", "Oracle SQL", "REST APIs", "Spring Boot 3.x", "Tomcat & GlassFish"], "projectCount": 2, "href": "profiles/christian-rosu.html"}, {"name": "Daniel Jerrehian", "role": "Senior Data Engineer / Data Architect", "language": "DE", "headline": "Senior Data Engineer and Architect specializing in cloud-based data platforms and financial reporting systems.", "summary": "Experienced Senior Data Engineer and Data Architect with a proven track record in designing and implementing scalable data and analytics platforms. Expertise in building modern Lakehouse architectures and global data warehouses within the financial services and retail sectors. Skilled in bridging technical implementation with complex business and regulatory requirements to deliver high-quality data solutions.", "skills": ["Agile/Scrum", "Apache Airflow", "AWS", "Data Modeling", "Databricks", "Delta Lake", "FastAPI", "Power BI", "PySpark", "Python", "React", "SQL", "SQL Server (SSIS/SSAS/MDS)"], "projectCount": 4, "href": "profiles/daniel-jerrehian.html"}, {"name": "Eduard Diosadi", "role": "SAP Consultant", "language": "DE", "headline": "SAP Consultant specializing in Cloud Analytics, Data Modeling, and AI-driven Automation", "summary": "SAP Consultant with a focus on cloud-based analytics, planning, and reporting solutions within Finance and Controlling. Combines a technical background in Automotive Engineering with expertise in data-driven methods, neural networks, and AI agentic workflows. Experienced in building automated pipelines using Python and LLMs to streamline Business Intelligence processes from data extraction to visualization.", "skills": ["AI Agentic Workflows", "Dashboarding", "Data Modeling", "Data Visualization", "LLM-based Automation", "Machine Learning", "Playwright", "PowerShell", "Python", "SAP Analysis for Office", "SAP Analytics Cloud", "SAP Datasphere"], "projectCount": 2, "href": "profiles/eduard-diosadi.html"}, {"name": "Filip Chioreanu", "role": "SAP Consultant", "language": "DE", "headline": "SAP Analytics Consultant specializing in Cloud-based Reporting and Planning", "summary": "Analytical SAP Analytics Consultant with a focus on developing cloud-based reporting and planning applications. Proficient in SAP Analytics Cloud (SAC) and SAP Datasphere, with expertise in data modeling, integration, and technical documentation. Committed to delivering scalable, high-quality data and analytics solutions through a structured and solution-oriented approach.", "skills": ["Data Modeling", "Data Visualization", "Gemini API", "HTML/CSS", "JavaScript", "Node.js", "Project Management", "SAP Analytics Cloud", "SAP Datasphere"], "projectCount": 2, "href": "profiles/filip-chioreanu.html"}, {"name": "Gabriela Wagner", "role": "SAP BW Consultant", "language": "DE", "headline": "Business Intelligence Expert specializing in SAP BW/4HANA and Cloud Solutions", "summary": "Experienced SAP BW Consultant with a strong background in data warehousing and modeling across the automotive, healthcare, and chemical industries. Expert in developing scalable on-premise and cloud-based BI strategies using SAP BW/4HANA, SAP Analytics Cloud, and SAP Data Warehouse Cloud. Proven track record in application management, incident resolution, and the technical implementation of complex business requirements.", "skills": ["ITIL Foundation", "Jira", "Oracle DB", "SAP Analytics Cloud", "SAP BusinessObjects", "SAP BW on HANA", "SAP BW/4HANA", "SAP Data Warehouse Cloud", "SAP ERP", "SAP SRM", "TM1 – Cubeware Cockpit"], "projectCount": 5, "href": "profiles/gabriela-wagner.html"}, {"name": "Ioana Boca", "role": "SAP BI & Analytics Consultant", "language": "DE", "headline": "SAP BI & Analytics Consultant specializing in Datasphere, SAC, and Data Modeling", "summary": "Experienced SAP specialist with a strong background in business intelligence and team leadership. Proficient in SAP BW/4HANA, SAC Reporting, and SAP Datasphere, with expertise in complex data modeling, ETL, and reporting processes. Proven track record in managing large teams and delivering data-driven solutions for major clients in the automotive and energy sectors.", "skills": ["ABAP (FI-CO, IS-U)", "Analysis for Office", "Confluence", "Jira", "Power BI", "Salesforce", "SAP Analytics Cloud", "SAP BTP", "SAP BW/4HANA", "SAP Datasphere", "SAP Signavio"], "projectCount": 4, "href": "profiles/ioana-boca.html"}, {"name": "Iuliana Toma", "role": "Senior SAP BW/BI Consultant", "language": "DE", "headline": "SAP BI Expert specializing in Automotive, Banking, and Logistics sectors with 8+ years of experience.", "summary": "Highly experienced SAP BW Consultant and generalist with deep expertise in SAP BW/4HANA, SAP BW on HANA, and SAP S/4HANA Embedded Analytics. Proven track record in developing, maintaining, and optimizing complex data flows using ABAP, AMDP, and SQL. Extensive experience in both Green Field and Brown Field projects within Agile (Scrum) frameworks across diverse industries including Finance, Automotive, and Retail.", "skills": ["ABAP", "AMDP", "BEx Query Designer", "HANA Modeling", "SAP Analysis for Office (AfO)", "SAP Analytics Cloud", "SAP BusinessObjects (Design Studio, Lumira, Web Intelligence)", "SAP BW on HANA", "SAP BW/4HANA", "SAP S/4HANA Embedded Analytics (CDS Views)", "SQL"], "projectCount": 6, "href": "profiles/iuliana-toma.html"}, {"name": "Matei Grosu", "role": "SAP Consultant", "language": "DE", "headline": "SAP Consultant with a background in Full-Stack Development and Data Analytics", "summary": "SAP Consultant with a strong technical foundation in software and data development. Experienced in bridging the gap between technical implementation and business requirements, focusing on scalable data and analytics solutions. Combines academic excellence in Computer Science and Electronics with practical experience in full-stack development and SAP cloud technologies.", "skills": ["Data Modeling", "ETL Processes", "Full-Stack Development", "Microsoft Power Automate", "OpenAI Codex", "SAP Analytics Cloud", "SAP BW/4HANA", "SAP Datasphere", "VBA"], "projectCount": 3, "href": "profiles/matei-grosu.html"}, {"name": "Raluca Ghimpu", "role": "Consultant Business Intelligence", "language": "DE", "headline": "SAP BI Expert specializing in SAC Planning, Reporting, and Data Modeling", "summary": "Experienced Business Intelligence Consultant with a strong focus on SAP solutions across the Energy, Retail, and Automotive sectors. Expert in the analysis, design, and implementation of complex reports, dashboards, and data models using SAP SAC, BO, and Lumira. Proven track record in agile project environments, delivering high-quality technical solutions and user-centric reporting through a combination of technical expertise and business requirement alignment.", "skills": ["CSS", "Data Analysis", "HTML", "ITIL", "SAP Analytics Cloud", "SAP BO", "SAP BW", "SAP Fiori", "SAP HANA Studio", "SAP Lumira", "Scrum"], "projectCount": 4, "href": "profiles/raluca-ghimpu.html"}, {"name": "Raluca Neagu", "role": "SAP BI & Advanced Analytics Consultant", "language": "DE", "headline": "Expert in SAP BI/BW and Advanced Analytics specializing in SAP BW/4HANA and SAP Analytics Cloud", "summary": "Experienced SAP BI/BW consultant with a strong background in conceptualizing, implementing, and optimizing complex data and analysis applications. Expert in bridging the gap between technical requirements and strategic business goals, with a focus on creating user-friendly reporting solutions and sustainable BI structures. Proven track record in delivering high-quality analytics across the automotive, financial services, and medical technology sectors.", "skills": ["BEx Query Designer", "Confluence", "Data Modeling", "Hadoop", "HP ALM", "Jira", "Lumira Designer", "SAP Analytics Cloud", "SAP BI / BW", "SAP Business Objects", "SAP BW/4HANA", "SAP ERP"], "projectCount": 4, "href": "profiles/raluca-neagu.html"}];
+    const filters = {
+      search: document.getElementById("search_filter"),
+      role: document.getElementById("role_filter"),
+      skill: document.getElementById("skill_filter"),
+      language: document.getElementById("language_filter")
+    };
+    const cards = Array.from(document.querySelectorAll("[data-profile-card]"));
+
+    function uniqueSorted(values) {
+      return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
+    }
+    function fillSelect(select, values) {
+      const first = select.options[0].textContent;
+      select.innerHTML = `<option value="">${first}</option>` + values.map(value => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join("");
+    }
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
+    }
+    function initializeFilters() {
+      fillSelect(filters.role, uniqueSorted(profiles.map(profile => profile.role)));
+      fillSelect(filters.skill, uniqueSorted(profiles.flatMap(profile => profile.skills || [])));
+      fillSelect(filters.language, uniqueSorted(profiles.map(profile => profile.language)));
+      Object.values(filters).forEach(control => control.addEventListener("input", applyFilters));
+      document.getElementById("reset_filters").addEventListener("click", () => {
+        Object.values(filters).forEach(control => control.value = "");
+        applyFilters();
+      });
+    }
+    function matches(profile) {
+      const search = filters.search.value.trim().toLowerCase();
+      const text = [profile.name, profile.role, profile.language, profile.headline, profile.summary, ...(profile.skills || [])].join(" ").toLowerCase();
+      return (!search || text.includes(search))
+        && (!filters.role.value || profile.role === filters.role.value)
+        && (!filters.skill.value || (profile.skills || []).includes(filters.skill.value))
+        && (!filters.language.value || profile.language === filters.language.value);
+    }
+    function applyFilters() {
+      const visible = profiles.map((profile, index) => ({ profile, index })).filter(item => matches(item.profile));
+      const visibleIndexes = new Set(visible.map(item => item.index));
+      cards.forEach((card, index) => card.hidden = !visibleIndexes.has(index));
+      document.getElementById("kpi_people").textContent = visible.length;
+      document.getElementById("kpi_roles").textContent = uniqueSorted(visible.map(item => item.profile.role)).length;
+      document.getElementById("kpi_skills").textContent = uniqueSorted(visible.flatMap(item => item.profile.skills || [])).length;
+      document.getElementById("kpi_projects").textContent = visible.reduce((sum, item) => sum + Number(item.profile.projectCount || 0), 0);
+      document.getElementById("result_count").textContent = `${visible.length} of ${profiles.length} profiles`;
+      document.getElementById("profile_cards").innerHTML = visible.length ? "" : `<div class="empty">No profiles match the selected filters.</div>`;
+      if (visible.length) {
+        cards.forEach(card => document.getElementById("profile_cards").appendChild(card));
+      }
+    }
+    initializeFilters();
+    applyFilters();
+  </script>
+</body>
+</html>
